@@ -1,0 +1,100 @@
+.container{
+    width: 955px;
+    height: 1685px;
+    border: 3px solid black;
+}
+
+.logo{
+    width: 200px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 50px;
+    float: left;
+}
+
+
+.content {
+    display: flex; 
+    padding: 25px;
+    padding-top: 17px;
+    font-size: 20px;
+}
+
+.nav-item {
+    padding: 25px;
+    padding-top: 75px;
+    transition: color 0.3s; 
+    text-decoration: none;
+    color: black;
+}
+.nav-item:hover {
+    color: blue; 
+    text-decoration: none;
+}
+
+#main{
+    margin-left: 9px;
+    width: 930px;
+    height: 415px;
+    border: 3px solid green;
+    border-radius: 5px;
+    background-image: url(bgofmyself.avif);
+}
+.myself{
+    display: flex;
+    height: 300px;
+    width: 250px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 97px;
+    float: right;
+
+}
+.aboutme{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 75px;
+}
+
+#linkdeinlogo{
+    height: 80px;
+    width: 255px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+#article{
+    margin-left: 9px;
+    width: 930px;
+    height: 475px;
+    border: 3px solid rgb(19, 212, 215);
+    border-radius: 5px;
+    display: flex;
+
+}
+#nav{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 300px;
+    height: 460px;
+    border: 3px solid black;
+}
+#xyz{
+    text-align: center;
+    margin-top: 3px;
+    color: blueviolet;
+}
+#ppp{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 2px;
+    color: rgb(24, 236, 20);
+}
+#teamlogo{
+    padding-left: 50px;
+    padding-top: 20px;
+
+}
